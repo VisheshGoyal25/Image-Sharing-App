@@ -1,0 +1,67 @@
+.profile-posts{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.profile-posts>div{
+    margin-bottom: 20px;
+    
+    box-shadow: 1px 1px 5px 3px rgba(202,184,184,1);
+    -webkit-box-shadow: 1px 1px 5px 3px rgba(202,184,184,1);
+    -moz-box-shadow: 1px 1px 5px 3px rgba(202,184,184,1);
+    
+}
+.profile-posts>div>div{
+    width: 100%;
+}
+.profile-posts span{
+    font-size: 1.4rem;
+    height: auto;
+    word-wrap: wrap;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.item{
+    width: 90%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    
+}
+@media screen and (min-width: 800px) {
+    .profile-posts div{
+    width: 30%;
+    height:auto;
+    
+    }
+    
+    .item{
+        height: 300px;
+    }
+  }
+@media screen and (max-width: 800px) {
+    .profile-posts div{
+    width: 45%;
+    height:auto;
+    
+    }
+    .item{
+        height: 200px;
+    }
+    
+  }
+  .delete-post{
+      position: absolute;
+       margin-left: -15px;
+       opacity: 0.6;
+       z-index: 1;
+  }
+  .post-item-head{
+      position: relative;
+      z-index: 0;
+    
+      
+  }
+  

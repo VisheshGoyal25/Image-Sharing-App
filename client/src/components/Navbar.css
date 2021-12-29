@@ -1,0 +1,112 @@
+   .link{
+    margin-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    
+  }
+  .link:hover{
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .title{
+    font-size: 2.4rem !important;
+    margin-right: 50px;
+  }
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+
+  }
+  .ham{
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+  }
+  .btn{
+    background-color:darkseagreen !important;
+    border-radius: 10px;
+  }
+  
+
+
+  @media (min-width: 1530px) {
+    .toggle
+    { 
+      display:none;
+    }
+    #lg{
+      display: "flex"!important;
+    }
+    .navbar{
+      height: 70px;
+      background-color: rgba(102, 16, 83, 0.698);
+      color: white;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+    }
+    .navbar2{
+      
+      height: 70px;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+    }
+  }
+
+.nav-input{
+  border-radius: 10px;
+  color: black !important;
+}
+
+  
+  @media (max-width: 1530px) {
+    .toggle
+    {
+      background-color: black;
+       width:70px;
+      height: 50px; 
+      position:absolute;
+      right: 0;
+       top: 0;
+    }
+    #lg{
+      display: none;
+    }
+    .navbar{
+      display: flex;
+      height: auto  !important;
+       flex-direction:column ;
+      justify-content: space-evenly !important ;
+      align-items: left !important ;
+      width: 100%  !important;
+      background-color: rgba(102, 16, 83, 0.698);
+      color: white;
+    }
+    .navbar2
+      {
+        display: flex;
+        height: auto  !important;
+         flex-direction:column ;
+        justify-content: space-evenly !important ;
+        align-items: left !important ;
+        width: 100%  !important;
+        color:white;
+      }
+    
+    .navbar div{
+      height: 50px;
+      box-shadow: 2px 8px 20px -20px white;
+      
+    }
+    
+  }

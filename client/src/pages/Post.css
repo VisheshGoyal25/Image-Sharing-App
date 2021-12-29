@@ -1,0 +1,13 @@
+.home {
+    margin: auto;
+    width: 40%;
+    min-width: 350px;
+    padding-top: 40px;
+    
+  }
+  @media screen and (max-width: 430px) {
+    .home{
+      width:80%;
+    margin-left: 9%;
+    }
+  }

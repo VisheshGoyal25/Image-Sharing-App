@@ -1,0 +1,78 @@
+.create{
+    width: 40%;
+    min-height:300px;
+    align-self: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 15vh;
+    border: solid 1px black;
+    height:auto !important;
+   padding: 40px;
+    
+}
+.post-head{
+   text-align: center;
+   width: 90%;
+   margin-bottom: 60px;
+    font-size: 1.8rem;
+    color: slategrey;
+}
+.create input[type="text"]{
+    width: 94%;
+    height: auto;
+    word-wrap: wrap;
+    min-height: 60px;
+    
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+    font-size: 1.3rem;
+}
+.create button{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.create p{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 400px) {
+.create{
+    width: 100% !important;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+    .create{
+        width: 75% !important;
+    }
+    }
+
+    
+    .new-button {
+        display: inline-block;
+        padding: 8px 12px; 
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: #9c27b0;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    input[type="file"] {
+      position: absolute;
+      z-index: -1;
+      top: 6px;
+      left: 0;
+      font-size: 15px;
+      color: rgb(153,153,153);
+    }
+    .button-wrap {
+      position: relative;
+    }
